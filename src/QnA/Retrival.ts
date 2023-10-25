@@ -78,7 +78,7 @@ if (!queryEmbedding) {
     return dotprod;
   }
   private cosineSimilarity(embedding1: number[], embedding2: number[]): number {
-    const dotProduct = embedding1.reduce((sum, value, i) => sum + value * (embedding2[i] || 0), 0);
+    const dotProduct = this.compareEmbeddings(embedding1 , embedding2)
     const magnitudeA = Math.sqrt(embedding1.reduce((sum, value) => sum + value * value, 0));
     const magnitudeB = Math.sqrt(embedding2.reduce((sum, value) => sum + value * value, 0));
     return dotProduct / (magnitudeA * magnitudeB);
