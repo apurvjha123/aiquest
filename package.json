@@ -9,6 +9,7 @@
     "test": "jest",
     "start": "node dist/index.js",
     "dev": "tsup src/index.ts --format cjs,esm --dts",
+    "release": "npm run dev && npx changeset publish",
     "lint": "tsc"
   },
   "files": [

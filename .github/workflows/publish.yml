@@ -1,0 +1,32 @@
+name: publish-npm
+
+on:
+    workflow_run:
+        workflows: ["CI"]
+        types:
+          - completed
+    push:
+      branches:
+        - "master"
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: actions/checkout@v3 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3  
+        with:
+          node-version: 18
+          registry-url: https://registry.npmjs.org/
+          
+      - run: npm install
+      - name: Create PR or Publish
+        id: changesets
+        uses: changesets/action@v1
+        with:
+            publish: npm run release
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
