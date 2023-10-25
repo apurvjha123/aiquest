@@ -15,10 +15,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 18
-      - name: Install Yarn
-        run: npm install -g yarn
-  
       - name: Install dependencies
-        run: yarn install
-      - run: yarn test
-      - run: yarn run lint && yarn run dev
+        run: npm install
+      - run: npm test
+      - run: npm run lint && npm run dev
