@@ -23,7 +23,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
           
       - run: npm install
-      - run: npx changeset
       - name: Create PR or Publish
         id: changesets
         uses: changesets/action@v1

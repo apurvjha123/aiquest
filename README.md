@@ -1,7 +1,7 @@
 
 # 📖 AIQuest
 
-### Aiquest is an npm package that streamlines the process of parsing websites, splitting content into manageable chunks, embedding these chunks into machine-friendly vectors, and subsequently storing and retrieving these embeddings from AWS. This documentation outlines its design and possibilities.
+### Aiquest is an npm package that streamlines the process of parsing websites, splitting content into manageable chunks, embedding these chunks into machine-friendly vectors, and subsequently storing and retrieving these embeddings from AWS. This documentation outlines its design and possibilities. Rag
 
 ### 🚀 Table of Contents
 - 🔧 [Design](#-Design)
