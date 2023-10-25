@@ -4,18 +4,18 @@
 ### Aiquest is an npm package that streamlines the process of parsing websites, splitting content into manageable chunks, embedding these chunks into machine-friendly vectors, and subsequently storing and retrieving these embeddings from AWS. This documentation outlines its design and possibilities.
 
 ### 🚀 Table of Contents
-- 🔧 [Design](#Design)
-- 🔍 [Installation](#Installation)
-- 🛠️ [Usage](#Usage)
-    - 🕸️ [Parsing](#Parsing)
-    - ✂️ [Chunking](#Chunking)
-    - 🧬 [Embedding](#Embedding)
-    - ☁️ [Storing on AWS](#Storing-on-AWS)
-    - 🔎 [Retrieval](#Retrieval)
-- 📝 [Examples](#Examples)
-- 🌟 [Future Enhancements](#Future-Enhancements)
-- 🤝 [Contribution](#Contribution)
-- 🐛 [Bug Reporting](#Bug-Reporting)
+- [🔧 Design](#Design)
+- [🔍 Installation](#Installation)
+- [🛠️ Usage](#Usage)
+    - [🕸️ Parsing](#Parsing)
+    - [✂️ Chunking](#Chunking)
+    - [🧬 Embedding](#Embedding)
+    - [☁️ Storing on AWS](#Storing-on-AWS)
+    - [🔎 Retrieval](#Retrieval)
+- [📝 Examples](#Examples)
+- [🌟 Future Enhancements](#Future-Enhancements)
+- [🤝 Contribution](#Contribution)
+- [🐛 Bug Reporting](#Bug-Reporting)
 
 ## 🔧 Design
 #### rag-aiquest integrates several utilities under one package:
