@@ -1,7 +1,7 @@
 
 # 📖 AIQuest
 
-### Aiquest is an npm package that streamlines the process of parsing websites, splitting content into manageable chunks, embedding these chunks into machine-friendly vectors, and subsequently storing and retrieving these embeddings from AWS. This documentation outlines its design and possibilities. Rag
+### Aiquest is an npm package that streamlines the process of parsing websites, splitting content into manageable chunks, embedding these chunks into machine-friendly vectors, and subsequently storing and retrieving these embeddings from AWS. This documentation outlines its design and possibilities. 
 
 ### 🚀 Table of Contents
 - 🔧 [Design](#-Design)
@@ -113,3 +113,10 @@ Feel free to [open an issue](https://github.com/apurvjha123/aiquest) on GitHub i
 ## 📋 Release Notes
 
 Check [here](https://github.com/apurvjha123/aiquest/releases) for release notes.
+
+## 🛠 Prerequisites
+* Active OpenAI API Key
+* AWS SECRET_KEY 
+
+# 💌 Support
+##### If you encounter any issues or require further assistance, please reach out to our support team at apurvjha123@gmail.com.
