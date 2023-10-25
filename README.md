@@ -20,7 +20,7 @@
 ## 🔧 Design
 #### rag-aiquest integrates several utilities under one package:
 
-**UnifiedParser**: For parsing content from URLs.
+**UnifiedParser**: For parsing content from URLs,PDF or Text File.
 
 **ChunkUtility**: To split the parsed content into chunks.
 
