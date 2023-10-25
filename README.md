@@ -116,7 +116,7 @@ Check [here](https://github.com/apurvjha123/aiquest/releases) for release notes.
 
 ## 🛠 Prerequisites
 * Active OpenAI API Key
-* AWS SECRET_KEY 
+* AWS BUCKET SECRET_KEY,Bucket Name, AUTH KEY
 
 # 💌 Support
 ##### If you encounter any issues or require further assistance, please reach out to our support team at apurvjha123@gmail.com.
