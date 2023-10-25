@@ -4,18 +4,18 @@
 ### Aiquest is an npm package that streamlines the process of parsing websites, splitting content into manageable chunks, embedding these chunks into machine-friendly vectors, and subsequently storing and retrieving these embeddings from AWS. This documentation outlines its design and possibilities.
 
 ### 🚀 Table of Contents
-- [🔧 Design](#Design)
-- [🔍 Installation](#Installation)
-- [🛠️ Usage](#Usage)
-    - [🕸️ Parsing](#Parsing)
-    - [✂️ Chunking](#Chunking)
-    - [🧬 Embedding](#Embedding)
-    - [☁️ Storing on AWS](#Storing-on-AWS)
-    - [🔎 Retrieval](#Retrieval)
-- [📝 Examples](#Examples)
-- [🌟 Future Enhancements](#Future-Enhancements)
-- [🤝 Contribution](#Contribution)
-- [🐛 Bug Reporting](#Bug-Reporting)
+- 🔧 [Design](#%EF%B8%8F-Design)
+- 🔍 [Installation](#%EF%B8%8F-Installation)
+- 🛠️ [Usage](#%EF%B8%8F-Usage)
+    - 🕸️ [Parsing](#%EF%B8%8F-Parsing)
+    - ✂️ [Chunking](#%EF%B8%8F-Chunking)
+    - 🧬 [Embedding](#%EF%B8%8F-Embedding)
+    - ☁️ [Storing on AWS](#%EF%B8%8F-Storing-on-AWS)
+    - 🔎 [Retrieval](#%EF%B8%8F-Retrieval)
+- 📝 [Examples](#%EF%B8%8F-Examples)
+- 🌟 [Future Enhancements](#%EF%B8%8F-Future-Enhancements)
+- 🤝 [Contribution](#%EF%B8%8F-Contribution)
+- 🐛 [Bug Reporting](#%EF%B8%8F-Bug-Reporting)
 
 ## 🔧 Design
 #### rag-aiquest integrates several utilities under one package:
