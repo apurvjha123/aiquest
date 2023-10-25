@@ -1,6 +1,6 @@
 {
   "name": "rag-aiquest",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest",
     "start": "node dist/index.js",
-    "dev" : "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc"
   },
   "files": [
@@ -32,6 +32,7 @@
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
     "@babel/preset-typescript": "^7.23.2",
+    "@changesets/cli": "^2.26.2",
     "@types/jest": "^29.5.6",
     "@types/node": "^20.8.7",
     "@types/pdf-parse": "^1.1.3",
