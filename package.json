@@ -1,6 +1,6 @@
 {
-  "name": "aiquest",
-  "version": "1.0.0",
+  "name": "rag-aiquest",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -11,6 +11,9 @@
     "dev" : "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc"
   },
+  "files": [
+    "dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apurvjha123/aiquest.git"
